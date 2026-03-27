@@ -1,0 +1,6 @@
+1. add text saying "no albums stored" and add placeholders
+2. add "album 1 of 15" text to keep track
+3. add search function, search by name and search by pointer/index/number
+4. add functionality for toggling status and adding reviews
+5. add functionality for "choosing a random album from the list for next listen"
+6. clean up the website so it doesnt look like shit

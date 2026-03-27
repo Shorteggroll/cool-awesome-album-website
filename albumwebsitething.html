@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>album website thingy</title>
+	</head>
+	<h1>
+		<p id="album-info"></p>
+    </h1>
+	<h3>
+		<p id="album-count"></p>
+	</h3>
+	<p>
+		<p id="listened-status"></p>
+	</p>
+	<img id="album-cover-display" src="" alt="" style="height: 200px; width: 200px;">
+	<input type="text" id="album-name" placeholder="Album Name">
+	<input type="text" id="album-artist" placeholder="Artist">
+	<input type="text" id="album-cover" placeholder="Cover Image URL">
+	<input type="text" id="album-url" placeholder="Spotify URL">
+	<button onclick="addNewAlbum()">add album</button>
+	<button onclick="goLeft()"><--</button>
+	<button onclick="goRight()">--></button>
+	<button onclick="deleteCurrentAlbum()">delete</button>
+	<button onclick="toggleListened()">Toggle Listened</button>
+	<h4>
+		<p id="pointer-tracker"></p>
+	</h4>
+	<script src="albumwebsitejs.js"></script>
+    <style>
+    body {
+        background-color: darkgrey;
+    }
+    </style>
+</html>
